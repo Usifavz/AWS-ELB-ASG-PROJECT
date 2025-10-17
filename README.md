@@ -1,7 +1,7 @@
-# AWS-ELB-ASG-PROJECT
+# **Elastic Load Balancer (ELB) & Auto Scaling Group (ASG) Project**
+
 This project demonstrates how to deploy a highly available and scalable web application on AWS using Elastic Load Balancing (ELB) and Auto Scaling Groups (ASG). It highlights how these two services work together to ensure fault tolerance, resilience, and cost efficiency in cloud environments.
 
-# **Elastic Load Balancer (ELB) & Auto Scaling Group (ASG) Project**
 
 ## **1. Notes on Load Balancer Types**
 
@@ -10,7 +10,7 @@ AWS provides three main types of **Elastic Load Balancers (ELB)**, each designed
 ### **Application Load Balancer (ALB)**
 - **Layer:** Application Layer (Layer 7)
 - **Description:** The ALB is designed for **HTTP and HTTPS traffic**. It provides advanced routing features such as **path-based** and **host-based routing**, **SSL termination**, and seamless integration with **containerized or microservice architectures**.
-- **Example:** Used by **streaming platforms like Netflix** to route user requests intelligently between different microservices — for example, directing `/login` traffic to the authentication service and `/movies` traffic to the content service.
+- **Example:** Used by **streaming platforms like Netflix** to route user requests intelligently between different microservices, for example, directing `/login` traffic to the authentication service and `/movies` traffic to the content service.
 
 ### **Network Load Balancer (NLB)**
 - **Layer:** Transport Layer (Layer 4)
